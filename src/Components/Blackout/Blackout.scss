@@ -1,0 +1,15 @@
+.closeModal{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: grey !important;
+    opacity: 0.4;
+    display: none;
+    width: 100%;
+    height: 100%;
+    &--show{
+        display: block;
+    }
+}

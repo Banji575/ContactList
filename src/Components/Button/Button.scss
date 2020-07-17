@@ -1,0 +1,18 @@
+.form-submit{
+    font-family: 'Raleway', sans-serif;
+    min-width: 80px;
+    height: 35px;
+    color: #fff;
+    background-color: #1abc9c;
+    border: none;
+
+    transition: 0.3s opacity ease;
+    cursor: pointer;
+    &:hover{
+       opacity: 0.6;
+    }
+}
+
+.logout{
+align-items: end;
+}

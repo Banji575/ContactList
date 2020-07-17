@@ -1,0 +1,48 @@
+.addContact{
+    background-color: transparent ;
+    position: absolute;
+    top: 0;
+    display: none !important;
+    width: auto !important;
+    height: auto !important;
+
+}
+.button__conteiner{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.show-modal{
+    display: block !important;
+    z-index: 50;
+    left: 34%;
+}
+
+.add{
+  position: relative;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 0.8rem;
+    display: block !important;
+    z-index: 50;
+    form{
+        width: 400px;
+        margin: 0 auto;
+        z-index: 50;
+    }
+
+.form-submit{
+    font-family: 'Raleway', sans-serif;
+    height: 35px;
+    color: #fff;
+    background-color: #1abc9c;
+    border: none;
+    letter-spacing: 0.2rem;
+    transition: 0.3s opacity ease;
+    cursor: pointer;
+    width: fit-content;
+}
+.form-submit:hover{
+   opacity: 0.6;
+}
+}

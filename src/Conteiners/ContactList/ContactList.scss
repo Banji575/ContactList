@@ -1,0 +1,17 @@
+.contact__conteiner{
+    display: flex;
+    justify-content: space-between;
+    &:hover{
+        background-color: steelblue;
+    }
+}
+.contacts{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    &__add{
+        width: 140px;
+        margin-left: 65%;
+    }
+}

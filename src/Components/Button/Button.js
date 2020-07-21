@@ -9,12 +9,14 @@ const Button = props => {
         cls.push('logout')
     }
     const type = props.type === 'add'? 'submit' : 'button'
+
  return(
      <button
      className= {cls.join(' ')}
      value = {props.value}
      type={type}
-     onClick={(e)=>(props.clickHandler(e,props.type))}
+     onClick={(e)=>(props.onClick(e,props.type))}
+     disabled = {props.disabled}
  >{props.type}</button>
  )
 }
